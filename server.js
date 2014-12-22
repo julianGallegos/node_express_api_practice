@@ -66,6 +66,8 @@ app.put('/api/books/:id', function(request, response){
 	response.send("updated your book...mother fucka!");
 });
 
+// deletes the book
+
 app.delete('/api/books/:id', function(request, response){
 	response.send("deleted your book...")
 });
